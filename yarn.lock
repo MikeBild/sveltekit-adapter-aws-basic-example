@@ -593,13 +593,13 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@playwright/test@1.24.0":
-  version "1.24.0"
-  resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.24.0.tgz#bef07eddeebba21358ab15e9b0b7a79df0479b76"
-  integrity sha512-sZLH2N6aWN9TtG+vMjNSomSfX0dSVHwWE+GhHQPV+ZeGcuZ/6CgMCGFuGjobgq/hNF9ZkuVOjeyoceZ0owKnHQ==
+"@playwright/test@1.24.1":
+  version "1.24.1"
+  resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.24.1.tgz#b70f5cd0909530e17c7610918b45f4af156f16c4"
+  integrity sha512-VJ9qekMis7Oze2Q/Vb+w1g2aPaJFRdl5vhTS6h82kG89Jb8trlU2WHY7oYzNRjvFPoVUMcWXiblH2bWcbEax/A==
   dependencies:
     "@types/node" "*"
-    playwright-core "1.24.0"
+    playwright-core "1.24.1"
 
 "@rollup/pluginutils@^4.2.1":
   version "4.2.1"
@@ -609,10 +609,10 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@sveltejs/kit@1.0.0-next.392":
-  version "1.0.0-next.392"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.392.tgz#cbded7a0a9d00ac5d59b063bfe57c37051a2d5df"
-  integrity sha512-od4rDJ/Soq0I7mda7sTbAnNKERHSDEGNa7QBpLA859xgBkwC1JnEIymYOh9dm+hMyHhB0bUoRoaur0qxKLqOOw==
+"@sveltejs/kit@1.0.0-next.396":
+  version "1.0.0-next.396"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.396.tgz#f87f27bfbff9add1dc869885f4e9b6497058280b"
+  integrity sha512-bKFpuzp9QxPkOIOEIeNeedvxEMORNqBPxUmoJXDP/Se7MrSfcxYiamjBcKrG+bgGNWmV39nD3EvUox+CXno/Ig==
   dependencies:
     "@sveltejs/vite-plugin-svelte" "^1.0.1"
     chokidar "^3.5.3"
@@ -1173,10 +1173,10 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.2, picomatch@^2.3.1:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
-playwright-core@1.24.0:
-  version "1.24.0"
-  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.24.0.tgz#ece821ceaf241bb7206329b1242b0cf6c1c60bdb"
-  integrity sha512-BkDWdVsoEEC8m2glQlfNu1EN2qvjBsLIg5bD0wjrfwv9zVHktIsp80yYFObAcWreLNYhfRP4PlXE04lr5R4DFQ==
+playwright-core@1.24.1:
+  version "1.24.1"
+  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.24.1.tgz#032eefaa8f674a4253a6c35a86787f2cbfcd8829"
+  integrity sha512-1RoSDe/oTQS1Ct7Pb8i+vcFKbKYpmVIBXk0IUiD8RvCUMnNl7EJF1OSQ9E8TZ5RYamWkW2Psir9e8Doyz1FnhQ==
 
 postcss@^8.4.14:
   version "8.4.14"
@@ -1346,10 +1346,10 @@ svelte@3.49.0:
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.49.0.tgz#5baee3c672306de1070c3b7888fc2204e36a4029"
   integrity sha512-+lmjic1pApJWDfPCpUUTc1m8azDqYCG1JN9YEngrx/hUyIcFJo6VZhj0A1Ai0wqoHcEIuQy+e9tk+4uDgdtsFA==
 
-sveltekit-adapter-aws@2.2.5:
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/sveltekit-adapter-aws/-/sveltekit-adapter-aws-2.2.5.tgz#42c3e1318be1c814dedf3db82e3a96caf725add0"
-  integrity sha512-EIphNzUs+sQH/GhJr2XESAX5zHLPlF/bGyLWAhlNrytT7iWjRA1GSCA6nFO5vi0sXcnFknhiQMNIDPvY9Vk98Q==
+sveltekit-adapter-aws@2.3.0:
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/sveltekit-adapter-aws/-/sveltekit-adapter-aws-2.3.0.tgz#cf721f3bf06b2c9e0c277e8b61371bb86bae0263"
+  integrity sha512-CVoluTBvL8iHqPp593t4LQbCREg5FsZ45ymIFImSrQRg1PNso/mBsYM64r/my9PGcVqjlwr4St/T1LIKYc5dnw==
   dependencies:
     "@aws-cdk/aws-apigatewayv2" "1.165.0"
     "@aws-cdk/aws-apigatewayv2-integrations" "1.165.0"
@@ -1360,7 +1360,7 @@ sveltekit-adapter-aws@2.2.5:
     "@aws-cdk/aws-s3" "1.165.0"
     "@aws-cdk/aws-s3-deployment" "1.165.0"
     "@aws-cdk/core" "1.165.0"
-    "@sveltejs/kit" "1.0.0-next.392"
+    "@sveltejs/kit" "1.0.0-next.396"
     fs-extra "10.1.0"
     svelte "3.49.0"
 
@@ -1386,10 +1386,10 @@ universalify@^2.0.0:
   resolved "https://registry.yarnpkg.com/universalify/-/universalify-2.0.0.tgz#75a4984efedc4b08975c5aeb73f530d02df25717"
   integrity sha512-hAZsKq7Yy11Zu1DE0OzWjw7nnLZmJZYTDZZyEFHZdUhV8FkH5MCfoU1XMaxXovpyW5nq5scPqq0ZDP9Zyl04oQ==
 
-vite@3.0.2:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-3.0.2.tgz#2a7b4642c53ae066cf724e7e581d6c1fd24e2c32"
-  integrity sha512-TAqydxW/w0U5AoL5AsD9DApTvGb2iNbGs3sN4u2VdT1GFkQVUfgUldt+t08TZgi23uIauh1TUOQJALduo9GXqw==
+vite@3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-3.0.3.tgz#c7b2ed9505a36a04be1d5d23aea4ea6fc028043f"
+  integrity sha512-sDIpIcl3mv1NUaSzZwiXGEy1ZoWwwC2vkxUHY6yiDacR6zf//ZFuBJrozO62gedpE43pmxnLATNR5IYUdAEkMQ==
   dependencies:
     esbuild "^0.14.47"
     postcss "^8.4.14"
