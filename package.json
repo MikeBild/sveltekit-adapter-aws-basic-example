@@ -12,22 +12,23 @@
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check --plugin-search-dir=. .",
-		"format": "prettier --write --plugin-search-dir=. ."
+		"format": "prettier --write --plugin-search-dir=. .",
+		"destroy": "destroy"
 	},
 	"devDependencies": {
-		"@playwright/test": "1.24.1",
-		"@sveltejs/kit": "1.0.0-next.396",
+		"@playwright/test": "1.24.2",
+		"@sveltejs/kit": "1.0.0-next.398",
 		"@types/cookie": "0.5.1",
-		"aws-cdk": "2.33.0",
+		"aws-cdk": "2.34.2",
 		"prettier": "2.7.1",
 		"prettier-plugin-svelte": "2.7.0",
 		"svelte": "3.49.0",
 		"svelte-check": "2.8.0",
 		"svelte-preprocess": "4.10.7",
-		"sveltekit-adapter-aws": "2.3.0",
+		"sveltekit-adapter-aws": "2.4.8",
 		"tslib": "2.4.0",
 		"typescript": "4.7.4",
-		"vite": "3.0.3"
+		"vite": "3.0.4"
 	},
 	"type": "module",
 	"dependencies": {
