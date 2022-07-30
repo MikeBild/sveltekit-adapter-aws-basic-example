@@ -1,0 +1,6 @@
+{
+  "sveltekit-adapter-aws-basic-demo": {
+    "apiUrl": "lpij09dp6g.execute-api.eu-central-1.amazonaws.com",
+    "appUrl": "sveltekit-adapter-aws-basic-demo.mikebild.com"
+  }
+}
