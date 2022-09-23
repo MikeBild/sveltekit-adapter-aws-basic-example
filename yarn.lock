@@ -2,15 +2,15 @@
 # yarn lockfile v1
 
 
-"@aws-cdk/aws-apigatewayv2-alpha@2.42.1-alpha.0":
-  version "2.42.1-alpha.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-apigatewayv2-alpha/-/aws-apigatewayv2-alpha-2.42.1-alpha.0.tgz#1f4268060c997fc848d9c32a4761a3ad2a4846ec"
-  integrity sha512-J5r0nCwK6V7Ifuvzz7XBXDBi/t1DrwOuhGkvR3atF2vVZIhSsN9fgEwxmxPj3OX5lVAq3qpDpSxhD3XmWyPaNA==
+"@aws-cdk/aws-apigatewayv2-alpha@2.43.0-alpha.0":
+  version "2.43.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-apigatewayv2-alpha/-/aws-apigatewayv2-alpha-2.43.0-alpha.0.tgz#c91efe7e032247efd1c56b61a891a3cc9df39042"
+  integrity sha512-9pxeapcWalplG4tKCBFtxL9rXi7H2pa1uk8SSChsc5q4jqg298lIb0y+ld4P0keLm+KNln8m2zOQs4qJBx8rjg==
 
-"@aws-cdk/aws-apigatewayv2-integrations-alpha@2.42.1-alpha.0":
-  version "2.42.1-alpha.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-apigatewayv2-integrations-alpha/-/aws-apigatewayv2-integrations-alpha-2.42.1-alpha.0.tgz#741d1b52cdd0b0e3a97fa246878d3a5ded21de8a"
-  integrity sha512-0/M99NaDRNl5rPou5v2HRpjoQ6weJ1ts/J4lrs201zPs38IcLjOhvbOPZVUWnXom7VMVICLwZ0bRAWgW7907kw==
+"@aws-cdk/aws-apigatewayv2-integrations-alpha@2.43.0-alpha.0":
+  version "2.43.0-alpha.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-apigatewayv2-integrations-alpha/-/aws-apigatewayv2-integrations-alpha-2.43.0-alpha.0.tgz#851179252d43ae92ce544026f12b81bb562c088e"
+  integrity sha512-xWk/+7I4Uwqw+jhjVySvOlasbYTtsSET6iA2uGR+UJYOJlk8c8nuTn+BduHxTBGivvDlMkpI7L417n63VcAXDw==
 
 "@balena/dockerignore@^1.0.2":
   version "1.0.2"
@@ -94,25 +94,6 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@sveltejs/kit@1.0.0-next.489":
-  version "1.0.0-next.489"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.489.tgz#a85851175c88eb8363eae5844a753e015ae79627"
-  integrity sha512-7oag1fimI9f8e8mNy2wQRgMCXSov5dASqeTdXffgnptWBpuEjr8myffJ9djoRVQXoFjCja39lCHBo239iY8+KA==
-  dependencies:
-    "@sveltejs/vite-plugin-svelte" "^1.0.5"
-    "@types/cookie" "^0.5.1"
-    cookie "^0.5.0"
-    devalue "^3.1.2"
-    kleur "^4.1.4"
-    magic-string "^0.26.2"
-    mime "^3.0.0"
-    node-fetch "^3.2.4"
-    sade "^1.8.1"
-    set-cookie-parser "^2.4.8"
-    sirv "^2.0.2"
-    tiny-glob "^0.2.9"
-    undici "^5.8.1"
-
 "@sveltejs/kit@1.0.0-next.499":
   version "1.0.0-next.499"
   resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.499.tgz#1e645b34324b99268d9ef5e2e1566c83ab3dc1a0"
@@ -179,10 +160,10 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-aws-cdk-lib@2.42.1:
-  version "2.42.1"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.42.1.tgz#a006c7d6cdcd75d7169c4b1c52dd5ee624705ff6"
-  integrity sha512-12KyAXhtKKCpTbwbs/HAYbIeIcB6RGd9mhHWrZA+6RpccXGwrDjFo36xAwmYMrUT+9FVewd703lNy+L3adRxbA==
+aws-cdk-lib@2.43.0:
+  version "2.43.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.43.0.tgz#df4340f7285be62fd9f09f7e9137368da63290df"
+  integrity sha512-r7wJXOFskOz4ksFE1oILLlQRATkhMeju4aSUafp8JcGh+mSVacXmA2h5oA2py1UbsSSJkLR8gU4CGSaGfDpjaA==
   dependencies:
     "@balena/dockerignore" "^1.0.2"
     case "1.6.3"
@@ -193,13 +174,6 @@ aws-cdk-lib@2.42.1:
     punycode "^2.1.1"
     semver "^7.3.7"
     yaml "1.10.2"
-
-aws-cdk@2.42.1:
-  version "2.42.1"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.42.1.tgz#a15c5f29034ea50875593f738d38396e0fbefece"
-  integrity sha512-+/mFl2TAT1ybpmTdrq24rc2vVBnJgH8rcOeSKOCY2kdQ8KcMUgT+pTJqJUXz4KJ42ZXhbqrt1KWrDTlTJ134FQ==
-  optionalDependencies:
-    fsevents "2.3.2"
 
 aws-cdk@2.43.0:
   version "2.43.0"
@@ -268,10 +242,10 @@ concat-map@0.0.1:
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
-constructs@10.1.107:
-  version "10.1.107"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.107.tgz#a5c0a840b9510b8a363e33e9d47f921520bbfb20"
-  integrity sha512-ewB60glRfBrzIlyujDJzIL/TWRhwwxtS579nOOqmvqaEKHtNgzHnDPBsq/vvvFpwZIRHs1ZUvtWPvxCg/2Ee6Q==
+constructs@10.1.110:
+  version "10.1.110"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.110.tgz#00735e3f2b39c3c536ea27df3217bb7e5ced6be1"
+  integrity sha512-d98E16/cuPRPsHXwepGtbEmeJYc1ET2IWIkEHKMRgrHMZOYkY0ofKM3S/wF/bXhSAETKdh5kjz0gP+2g8i9ixw==
 
 cookie@0.5.0, cookie@^0.5.0:
   version "0.5.0"
@@ -976,17 +950,17 @@ svelte@3.50.1:
   resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.50.1.tgz#b35fbc5e79ddd71e8bb27c3149ee6ff903841239"
   integrity sha512-bS4odcsdj5D5jEg6riZuMg5NKelzPtmsCbD9RG+8umU03TeNkdWnP6pqbCm0s8UQNBkqk29w/Bdubn3C+HWSwA==
 
-sveltekit-adapter-aws@4.2.14:
-  version "4.2.14"
-  resolved "https://registry.yarnpkg.com/sveltekit-adapter-aws/-/sveltekit-adapter-aws-4.2.14.tgz#ee52ea064e331d053824b7b7b1fea5692f2602c6"
-  integrity sha512-4EExUrdENFBU5VlOvkpFlvITbb2aN+4iCr/i3077RKdS0SK3ScSQEvV2YTy6gjisl0JcG39JGojyjX3h/t2vqQ==
+sveltekit-adapter-aws@4.2.15:
+  version "4.2.15"
+  resolved "https://registry.yarnpkg.com/sveltekit-adapter-aws/-/sveltekit-adapter-aws-4.2.15.tgz#908947459a17336b2aced27c286d7c4777c4690b"
+  integrity sha512-DUrl29PKD7QRpdXDZ7dC+jCjq4NQDoPRCX9UCv8gj/rgV5dFN2TYcIhennAsfyRVlOL20TErkStmbLFWknwBUA==
   dependencies:
-    "@aws-cdk/aws-apigatewayv2-alpha" "2.42.1-alpha.0"
-    "@aws-cdk/aws-apigatewayv2-integrations-alpha" "2.42.1-alpha.0"
-    "@sveltejs/kit" "1.0.0-next.489"
-    aws-cdk "2.42.1"
-    aws-cdk-lib "2.42.1"
-    constructs "10.1.107"
+    "@aws-cdk/aws-apigatewayv2-alpha" "2.43.0-alpha.0"
+    "@aws-cdk/aws-apigatewayv2-integrations-alpha" "2.43.0-alpha.0"
+    "@sveltejs/kit" "1.0.0-next.499"
+    aws-cdk "2.43.0"
+    aws-cdk-lib "2.43.0"
+    constructs "10.1.110"
     dotenv "16.0.2"
     fs-extra "10.1.0"
     svelte "3.50.1"
