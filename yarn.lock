@@ -2,25 +2,32 @@
 # yarn lockfile v1
 
 
-"@aws-cdk/aws-apigatewayv2-alpha@2.38.1-alpha.0":
-  version "2.38.1-alpha.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-apigatewayv2-alpha/-/aws-apigatewayv2-alpha-2.38.1-alpha.0.tgz#1eeecefc549b7504b63c470eff3d2b19288bdd21"
-  integrity sha512-B/TdlIKa9ip0tjbe9C4uY+RYiTwv0hTJ9k62MxIeseh78tHgXDXrfROgyEpDHvG7NP2OTyHbewq/yTyGrY+McA==
+"@aws-cdk/aws-apigatewayv2-alpha@2.42.1-alpha.0":
+  version "2.42.1-alpha.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-apigatewayv2-alpha/-/aws-apigatewayv2-alpha-2.42.1-alpha.0.tgz#1f4268060c997fc848d9c32a4761a3ad2a4846ec"
+  integrity sha512-J5r0nCwK6V7Ifuvzz7XBXDBi/t1DrwOuhGkvR3atF2vVZIhSsN9fgEwxmxPj3OX5lVAq3qpDpSxhD3XmWyPaNA==
 
-"@aws-cdk/aws-apigatewayv2-integrations-alpha@2.38.1-alpha.0":
-  version "2.38.1-alpha.0"
-  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-apigatewayv2-integrations-alpha/-/aws-apigatewayv2-integrations-alpha-2.38.1-alpha.0.tgz#0337641e550ea708db48547a905e95aefcb4cc12"
-  integrity sha512-AB4Fs0HcPA4JwElL8usLSPzG6ZC/tJ62QQO1lpUtAgB+qdtCSgyPVtFNu5slSCa4tiEaeoVOIeTVIcSJOjlBHA==
+"@aws-cdk/aws-apigatewayv2-integrations-alpha@2.42.1-alpha.0":
+  version "2.42.1-alpha.0"
+  resolved "https://registry.yarnpkg.com/@aws-cdk/aws-apigatewayv2-integrations-alpha/-/aws-apigatewayv2-integrations-alpha-2.42.1-alpha.0.tgz#741d1b52cdd0b0e3a97fa246878d3a5ded21de8a"
+  integrity sha512-0/M99NaDRNl5rPou5v2HRpjoQ6weJ1ts/J4lrs201zPs38IcLjOhvbOPZVUWnXom7VMVICLwZ0bRAWgW7907kw==
 
 "@balena/dockerignore@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@balena/dockerignore/-/dockerignore-1.0.2.tgz#9ffe4726915251e8eb69f44ef3547e0da2c03e0d"
   integrity sha512-wMue2Sy4GAVTk6Ic4tJVcnfdau+gx2EnG7S+uAEe+TWJFqE4YoWN4/H8MSLj4eYJKxGg26lZwboEniNiNwZQ6Q==
 
-"@esbuild/linux-loong64@0.14.54":
-  version "0.14.54"
-  resolved "https://registry.yarnpkg.com/@esbuild/linux-loong64/-/linux-loong64-0.14.54.tgz#de2a4be678bd4d0d1ffbb86e6de779cde5999028"
-  integrity sha512-bZBrLAIX1kpWelV0XemxBZllyRmM6vgFQQG2GdNb+r3Fkp0FOh1NJSvekXDs7jq70k4euu1cryLMfU+mTXlEpw==
+"@esbuild/android-arm@0.15.8":
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/@esbuild/android-arm/-/android-arm-0.15.8.tgz#52b094c98e415ec72fab39827c12f2051ac9c550"
+  integrity sha512-CyEWALmn+no/lbgbAJsbuuhT8s2J19EJGHkeyAwjbFJMrj80KJ9zuYsoAvidPTU7BgBf87r/sgae8Tw0dbOc4Q==
+  dependencies:
+    esbuild-wasm "0.15.8"
+
+"@esbuild/linux-loong64@0.15.8":
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/@esbuild/linux-loong64/-/linux-loong64-0.15.8.tgz#d64575fc46bf4eb689352aa9f8a139271b6e1647"
+  integrity sha512-pE5RQsOTSERCtfZdfCT25wzo7dfhOSlhAXcsZmuvRYhendOv7djcdvtINdnDp2DAjP17WXlBB4nBO6sHLczmsg==
 
 "@fontsource/fira-mono@4.5.9":
   version "4.5.9"
@@ -66,13 +73,13 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@playwright/test@1.25.0":
-  version "1.25.0"
-  resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.25.0.tgz#e0de134651e78e45e986c5f16578188dd5937331"
-  integrity sha512-j4EZhTTQI3dBeWblE21EV//swwmBtOpIrLdOIJIRv4uqsLdHgBg1z+JtTg+AeC5o2bAXIE26kDNW5A0TimG8Bg==
+"@playwright/test@1.26.0":
+  version "1.26.0"
+  resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.26.0.tgz#d0c4a7ffaa7df5b4a63e0d8dea133fdb1d6c5aef"
+  integrity sha512-D24pu1k/gQw3Lhbpc38G5bXlBjGDrH5A52MsrH12wz6ohGDeQ+aZg/JFSEsT/B3G8zlJe/EU4EkJK74hpqsjEg==
   dependencies:
     "@types/node" "*"
-    playwright-core "1.25.0"
+    playwright-core "1.26.0"
 
 "@polka/url@^1.0.0-next.20":
   version "1.0.0-next.21"
@@ -87,14 +94,15 @@
     estree-walker "^2.0.1"
     picomatch "^2.2.2"
 
-"@sveltejs/kit@1.0.0-next.429":
-  version "1.0.0-next.429"
-  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.429.tgz#2975154f759dd1df1d5c544eeffe01caafe20963"
-  integrity sha512-u5/RugPTeaT2e7oHKKZh0uy1qzqphhJOS5QBxr2D/JXYqSjEJcyFnXXpzmqo6lB1Oxlj88WF9Ozul6Wlekvyew==
+"@sveltejs/kit@1.0.0-next.489":
+  version "1.0.0-next.489"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.489.tgz#a85851175c88eb8363eae5844a753e015ae79627"
+  integrity sha512-7oag1fimI9f8e8mNy2wQRgMCXSov5dASqeTdXffgnptWBpuEjr8myffJ9djoRVQXoFjCja39lCHBo239iY8+KA==
   dependencies:
-    "@sveltejs/vite-plugin-svelte" "^1.0.1"
+    "@sveltejs/vite-plugin-svelte" "^1.0.5"
+    "@types/cookie" "^0.5.1"
     cookie "^0.5.0"
-    devalue "^2.0.1"
+    devalue "^3.1.2"
     kleur "^4.1.4"
     magic-string "^0.26.2"
     mime "^3.0.0"
@@ -105,19 +113,38 @@
     tiny-glob "^0.2.9"
     undici "^5.8.1"
 
-"@sveltejs/vite-plugin-svelte@^1.0.1":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.2.tgz#d9997e9f1aeca7b5f72634e774c4f0c7207134b3"
-  integrity sha512-8tTVbNuraeDchBaArNbwaZLpO0feM7BRSdZU5yeM4Clasx2p1p1CYBoWh+VgxZlxiark49HXummkHqKztbl8lA==
+"@sveltejs/kit@1.0.0-next.499":
+  version "1.0.0-next.499"
+  resolved "https://registry.yarnpkg.com/@sveltejs/kit/-/kit-1.0.0-next.499.tgz#1e645b34324b99268d9ef5e2e1566c83ab3dc1a0"
+  integrity sha512-HoNsQ9CjdPLlDZLwcCsJTx5tW8YI3xhXEcJGuFHPLf600QcfeJWmQtE6mQF/SiykFkYR+2fD1GdRzKynJbZDMA==
+  dependencies:
+    "@sveltejs/vite-plugin-svelte" "^1.0.5"
+    "@types/cookie" "^0.5.1"
+    cookie "^0.5.0"
+    devalue "^3.1.2"
+    kleur "^4.1.4"
+    magic-string "^0.26.2"
+    mime "^3.0.0"
+    node-fetch "^3.2.4"
+    sade "^1.8.1"
+    set-cookie-parser "^2.4.8"
+    sirv "^2.0.2"
+    tiny-glob "^0.2.9"
+    undici "^5.8.1"
+
+"@sveltejs/vite-plugin-svelte@^1.0.5":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@sveltejs/vite-plugin-svelte/-/vite-plugin-svelte-1.0.7.tgz#16e8d9e5ad11ed72925badf7a676e7331cb72e02"
+  integrity sha512-bf3/xrpKP5Sj9I6hT0slYwY4rVElocWZ79zLPc/bPFCOjjuty0jW4hmC4Uehb7yifjf3I6QnT3eIs2EKqw+Kig==
   dependencies:
     "@rollup/pluginutils" "^4.2.1"
     debug "^4.3.4"
     deepmerge "^4.2.2"
     kleur "^4.1.5"
-    magic-string "^0.26.2"
-    svelte-hmr "^0.14.12"
+    magic-string "^0.26.3"
+    svelte-hmr "^0.15.0"
 
-"@types/cookie@0.5.1":
+"@types/cookie@0.5.1", "@types/cookie@^0.5.1":
   version "0.5.1"
   resolved "https://registry.yarnpkg.com/@types/cookie/-/cookie-0.5.1.tgz#b29aa1f91a59f35e29ff8f7cb24faf1a3a750554"
   integrity sha512-COUnqfB2+ckwXXSFInsFdOAWQzCCx+a5hq2ruyj+Vjund94RJQd4LG2u9hnvJrTgunKAaax7ancBYlDrNYxA0g==
@@ -152,10 +179,10 @@ at-least-node@^1.0.0:
   resolved "https://registry.yarnpkg.com/at-least-node/-/at-least-node-1.0.0.tgz#602cd4b46e844ad4effc92a8011a3c46e0238dc2"
   integrity sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==
 
-aws-cdk-lib@2.38.1:
-  version "2.38.1"
-  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.38.1.tgz#e96ee1362c86260786b3d808f593ca5edd813b29"
-  integrity sha512-vEgJBUzL1yqlSMYGjipl+eRwy900x3RmbVzTcxKdCZvhtBMQ1hqJAMgVswvoyA5EnvfELLlz9ufm+qdKGs9DxQ==
+aws-cdk-lib@2.42.1:
+  version "2.42.1"
+  resolved "https://registry.yarnpkg.com/aws-cdk-lib/-/aws-cdk-lib-2.42.1.tgz#a006c7d6cdcd75d7169c4b1c52dd5ee624705ff6"
+  integrity sha512-12KyAXhtKKCpTbwbs/HAYbIeIcB6RGd9mhHWrZA+6RpccXGwrDjFo36xAwmYMrUT+9FVewd703lNy+L3adRxbA==
   dependencies:
     "@balena/dockerignore" "^1.0.2"
     case "1.6.3"
@@ -167,10 +194,17 @@ aws-cdk-lib@2.38.1:
     semver "^7.3.7"
     yaml "1.10.2"
 
-aws-cdk@2.38.1:
-  version "2.38.1"
-  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.38.1.tgz#285273b5507241712bcc1e5b40eb05a21f3bebfd"
-  integrity sha512-bIHRCkmbXBmJWw1Gq5UsAUUYKABuE/ah1iAA14hXLS8+9AJlF/Ptn+NsUCt9K5v17cRqtUoeaOAMAPrZs8l+YA==
+aws-cdk@2.42.1:
+  version "2.42.1"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.42.1.tgz#a15c5f29034ea50875593f738d38396e0fbefece"
+  integrity sha512-+/mFl2TAT1ybpmTdrq24rc2vVBnJgH8rcOeSKOCY2kdQ8KcMUgT+pTJqJUXz4KJ42ZXhbqrt1KWrDTlTJ134FQ==
+  optionalDependencies:
+    fsevents "2.3.2"
+
+aws-cdk@2.43.0:
+  version "2.43.0"
+  resolved "https://registry.yarnpkg.com/aws-cdk/-/aws-cdk-2.43.0.tgz#46957c284602254ab31f95c75a27c3e5edcdcdf6"
+  integrity sha512-9qDHl5/EXK6rUsrjm4tz9/8tb3F/QgYuohdFaaOojVbBXjilVdwKVPXTpB4V4Oqkn2yivIUR/26zfm60k4y4hw==
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -234,10 +268,10 @@ concat-map@0.0.1:
   resolved "https://registry.yarnpkg.com/concat-map/-/concat-map-0.0.1.tgz#d8a96bd77fd68df7793a73036a3ba0d5405d477b"
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
-constructs@10.1.84:
-  version "10.1.84"
-  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.84.tgz#be136076ce8c0c7e0be5c1ab2974cea82dc1ee3f"
-  integrity sha512-UeKlo2RAQOC7WR38qcGMGtvQse0gRK72eWBAik+/O7HEg0i4w3I6PzycXoNL48Y0qMQG1LF6g3+d84j9LCEt8A==
+constructs@10.1.107:
+  version "10.1.107"
+  resolved "https://registry.yarnpkg.com/constructs/-/constructs-10.1.107.tgz#a5c0a840b9510b8a363e33e9d47f921520bbfb20"
+  integrity sha512-ewB60glRfBrzIlyujDJzIL/TWRhwwxtS579nOOqmvqaEKHtNgzHnDPBsq/vvvFpwZIRHs1ZUvtWPvxCg/2Ee6Q==
 
 cookie@0.5.0, cookie@^0.5.0:
   version "0.5.0"
@@ -266,147 +300,155 @@ detect-indent@^6.0.0:
   resolved "https://registry.yarnpkg.com/detect-indent/-/detect-indent-6.1.0.tgz#592485ebbbf6b3b1ab2be175c8393d04ca0d57e6"
   integrity sha512-reYkTUJAZb9gUuZ2RvVCNhVHdg62RHnJ7WJl8ftMi4diZ6NWlciOzQN88pUhSELEwflJht4oQDv0F0BMlwaYtA==
 
-devalue@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/devalue/-/devalue-2.0.1.tgz#5d368f9adc0928e47b77eea53ca60d2f346f9762"
-  integrity sha512-I2TiqT5iWBEyB8GRfTDP0hiLZ0YeDJZ+upDxjBfOC2lebO5LezQMv7QvIUTzdb64jQyAKLf1AHADtGN+jw6v8Q==
+devalue@^3.1.2:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/devalue/-/devalue-3.1.3.tgz#99f0073c109b78f92c82a704cc7da139ef1337f5"
+  integrity sha512-9KO89Cb+qjzf2CqdrH+NuLaqdk9GhDP5EhR4zlkR51dvuIaiqtlkDkGzLMShDemwUy21raSMdu+kpX8Enw3yGQ==
 
-dotenv@16.0.1:
-  version "16.0.1"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.1.tgz#8f8f9d94876c35dac989876a5d3a82a267fdce1d"
-  integrity sha512-1K6hR6wtk2FviQ4kEiSjFiH5rpzEVi8WW0x96aztHVMhEspNpc4DVOUTEHtEva5VThQ8IaBX1Pe4gSzpVVUsKQ==
+dotenv@16.0.2:
+  version "16.0.2"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.0.2.tgz#0b0f8652c016a3858ef795024508cddc4bffc5bf"
+  integrity sha512-JvpYKUmzQhYoIFgK2MOnF3bciIZoItIIoryihy0rIA+H4Jy0FmgyKYAHCTN98P5ybGSJcIFbh6QKeJdtZd1qhA==
 
 es6-promise@^3.1.2:
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/es6-promise/-/es6-promise-3.3.1.tgz#a08cdde84ccdbf34d027a1451bc91d4bcd28a613"
   integrity sha512-SOp9Phqvqn7jtEUxPWdWfWoLmyt2VaJ6MpvP9Comy1MceMXqE6bxvaTu4iaxpYYPzhny28Lc+M87/c2cPK6lDg==
 
-esbuild-android-64@0.14.54:
-  version "0.14.54"
-  resolved "https://registry.yarnpkg.com/esbuild-android-64/-/esbuild-android-64-0.14.54.tgz#505f41832884313bbaffb27704b8bcaa2d8616be"
-  integrity sha512-Tz2++Aqqz0rJ7kYBfz+iqyE3QMycD4vk7LBRyWaAVFgFtQ/O8EJOnVmTOiDWYZ/uYzB4kvP+bqejYdVKzE5lAQ==
+esbuild-android-64@0.15.8:
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/esbuild-android-64/-/esbuild-android-64-0.15.8.tgz#625863e705d4ed32a3b4c0b997dbf9454d50a455"
+  integrity sha512-bVh8FIKOolF7/d4AMzt7xHlL0Ljr+mYKSHI39TJWDkybVWHdn6+4ODL3xZGHOxPpdRpitemXA1WwMKYBsw8dGw==
+  dependencies:
+    esbuild-wasm "0.15.8"
 
-esbuild-android-arm64@0.14.54:
-  version "0.14.54"
-  resolved "https://registry.yarnpkg.com/esbuild-android-arm64/-/esbuild-android-arm64-0.14.54.tgz#8ce69d7caba49646e009968fe5754a21a9871771"
-  integrity sha512-F9E+/QDi9sSkLaClO8SOV6etqPd+5DgJje1F9lOWoNncDdOBL2YF59IhsWATSt0TLZbYCf3pNlTHvVV5VfHdvg==
+esbuild-android-arm64@0.15.8:
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/esbuild-android-arm64/-/esbuild-android-arm64-0.15.8.tgz#cd62afe08652ac146014386d3adbe7a9d33db1b0"
+  integrity sha512-ReAMDAHuo0H1h9LxRabI6gwYPn8k6WiUeyxuMvx17yTrJO+SCnIfNc/TSPFvDwtK9MiyiKG/2dBYHouT/M0BXQ==
 
-esbuild-darwin-64@0.14.54:
-  version "0.14.54"
-  resolved "https://registry.yarnpkg.com/esbuild-darwin-64/-/esbuild-darwin-64-0.14.54.tgz#24ba67b9a8cb890a3c08d9018f887cc221cdda25"
-  integrity sha512-jtdKWV3nBviOd5v4hOpkVmpxsBy90CGzebpbO9beiqUYVMBtSc0AL9zGftFuBon7PNDcdvNCEuQqw2x0wP9yug==
+esbuild-darwin-64@0.15.8:
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/esbuild-darwin-64/-/esbuild-darwin-64-0.15.8.tgz#eb668dc973165f85aefecdca8aa60231acb2f705"
+  integrity sha512-KaKcGfJ+yto7Fo5gAj3xwxHMd1fBIKatpCHK8znTJLVv+9+NN2/tIPBqA4w5rBwjX0UqXDeIE2v1xJP+nGEXgA==
 
-esbuild-darwin-arm64@0.14.54:
-  version "0.14.54"
-  resolved "https://registry.yarnpkg.com/esbuild-darwin-arm64/-/esbuild-darwin-arm64-0.14.54.tgz#3f7cdb78888ee05e488d250a2bdaab1fa671bf73"
-  integrity sha512-OPafJHD2oUPyvJMrsCvDGkRrVCar5aVyHfWGQzY1dWnzErjrDuSETxwA2HSsyg2jORLY8yBfzc1MIpUkXlctmw==
+esbuild-darwin-arm64@0.15.8:
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/esbuild-darwin-arm64/-/esbuild-darwin-arm64-0.15.8.tgz#91c110daa46074fdfc18f411247ca0d1228aacc3"
+  integrity sha512-8tjEaBgAKnXCkP7bhEJmEqdG9HEV6oLkF36BrMzpfW2rgaw0c48Zrxe+9RlfeGvs6gDF4w+agXyTjikzsS3izw==
 
-esbuild-freebsd-64@0.14.54:
-  version "0.14.54"
-  resolved "https://registry.yarnpkg.com/esbuild-freebsd-64/-/esbuild-freebsd-64-0.14.54.tgz#09250f997a56ed4650f3e1979c905ffc40bbe94d"
-  integrity sha512-OKwd4gmwHqOTp4mOGZKe/XUlbDJ4Q9TjX0hMPIDBUWWu/kwhBAudJdBoxnjNf9ocIB6GN6CPowYpR/hRCbSYAg==
+esbuild-freebsd-64@0.15.8:
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/esbuild-freebsd-64/-/esbuild-freebsd-64-0.15.8.tgz#22270945a9bf9107c340eb73922e122bbe84f8ad"
+  integrity sha512-jaxcsGHYzn2L0/lffON2WfH4Nc+d/EwozVTP5K2v016zxMb5UQMhLoJzvLgBqHT1SG0B/mO+a+THnJCMVg15zw==
 
-esbuild-freebsd-arm64@0.14.54:
-  version "0.14.54"
-  resolved "https://registry.yarnpkg.com/esbuild-freebsd-arm64/-/esbuild-freebsd-arm64-0.14.54.tgz#bafb46ed04fc5f97cbdb016d86947a79579f8e48"
-  integrity sha512-sFwueGr7OvIFiQT6WeG0jRLjkjdqWWSrfbVwZp8iMP+8UHEHRBvlaxL6IuKNDwAozNUmbb8nIMXa7oAOARGs1Q==
+esbuild-freebsd-arm64@0.15.8:
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/esbuild-freebsd-arm64/-/esbuild-freebsd-arm64-0.15.8.tgz#0efe2741fbcaa2cfd31b9f94bd3ca7385b68c469"
+  integrity sha512-2xp2UlljMvX8HExtcg7VHaeQk8OBU0CSl1j18B5CcZmSDkLF9p3utuMXIopG3a08fr9Hv+Dz6+seSXUow/G51w==
 
-esbuild-linux-32@0.14.54:
-  version "0.14.54"
-  resolved "https://registry.yarnpkg.com/esbuild-linux-32/-/esbuild-linux-32-0.14.54.tgz#e2a8c4a8efdc355405325033fcebeb941f781fe5"
-  integrity sha512-1ZuY+JDI//WmklKlBgJnglpUL1owm2OX+8E1syCD6UAxcMM/XoWd76OHSjl/0MR0LisSAXDqgjT3uJqT67O3qw==
+esbuild-linux-32@0.15.8:
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-32/-/esbuild-linux-32-0.15.8.tgz#6fc98659105da5c0d1fedfce3b7b9fa24ebee0d4"
+  integrity sha512-9u1E54BRz1FQMl86iaHK146+4ID2KYNxL3trLZT4QLLx3M7Q9n4lGG3lrzqUatGR2cKy8c33b0iaCzsItZWkFg==
 
-esbuild-linux-64@0.14.54:
-  version "0.14.54"
-  resolved "https://registry.yarnpkg.com/esbuild-linux-64/-/esbuild-linux-64-0.14.54.tgz#de5fdba1c95666cf72369f52b40b03be71226652"
-  integrity sha512-EgjAgH5HwTbtNsTqQOXWApBaPVdDn7XcK+/PtJwZLT1UmpLoznPd8c5CxqsH2dQK3j05YsB3L17T8vE7cp4cCg==
+esbuild-linux-64@0.15.8:
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-64/-/esbuild-linux-64-0.15.8.tgz#8e738c926d145cdd4e9bcb2febc96d89dc27dc09"
+  integrity sha512-4HxrsN9eUzJXdVGMTYA5Xler82FuZUu21bXKN42zcLHHNKCAMPUzD62I+GwDhsdgUBAUj0tRXDdsQHgaP6v0HA==
 
-esbuild-linux-arm64@0.14.54:
-  version "0.14.54"
-  resolved "https://registry.yarnpkg.com/esbuild-linux-arm64/-/esbuild-linux-arm64-0.14.54.tgz#dae4cd42ae9787468b6a5c158da4c84e83b0ce8b"
-  integrity sha512-WL71L+0Rwv+Gv/HTmxTEmpv0UgmxYa5ftZILVi2QmZBgX3q7+tDeOQNqGtdXSdsL8TQi1vIaVFHUPDe0O0kdig==
+esbuild-linux-arm64@0.15.8:
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-arm64/-/esbuild-linux-arm64-0.15.8.tgz#a12675e5a56e8ef08dea49da8eed51a87b0e60d6"
+  integrity sha512-1OCm7Aq0tEJT70PbxmHSGYDLYP8DKH8r4Nk7/XbVzWaduo9beCjGBB+tGZIHK6DdTQ3h00/4Tb/70YMH/bOtKg==
 
-esbuild-linux-arm@0.14.54:
-  version "0.14.54"
-  resolved "https://registry.yarnpkg.com/esbuild-linux-arm/-/esbuild-linux-arm-0.14.54.tgz#a2c1dff6d0f21dbe8fc6998a122675533ddfcd59"
-  integrity sha512-qqz/SjemQhVMTnvcLGoLOdFpCYbz4v4fUo+TfsWG+1aOu70/80RV6bgNpR2JCrppV2moUQkww+6bWxXRL9YMGw==
+esbuild-linux-arm@0.15.8:
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-arm/-/esbuild-linux-arm-0.15.8.tgz#6424da1e8a3ece78681ebee4a70477b40c36ab35"
+  integrity sha512-7DVBU9SFjX4+vBwt8tHsUCbE6Vvl6y6FQWHAgyw1lybC5gULqn/WnjHYHN2/LJaZRsDBvxWT4msEgwLGq1Wd3Q==
 
-esbuild-linux-mips64le@0.14.54:
-  version "0.14.54"
-  resolved "https://registry.yarnpkg.com/esbuild-linux-mips64le/-/esbuild-linux-mips64le-0.14.54.tgz#d9918e9e4cb972f8d6dae8e8655bf9ee131eda34"
-  integrity sha512-qTHGQB8D1etd0u1+sB6p0ikLKRVuCWhYQhAHRPkO+OF3I/iSlTKNNS0Lh2Oc0g0UFGguaFZZiPJdJey3AGpAlw==
+esbuild-linux-mips64le@0.15.8:
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-mips64le/-/esbuild-linux-mips64le-0.15.8.tgz#5b39a16272cb4eaaad1f24938c057b19fb5a0ee5"
+  integrity sha512-yeFoNPVFPEzZvFYBfUQNG2TjGRaCyV1E27OcOg4LOtnGrxb2wA+mkW3luckyv1CEyd00mpAg7UdHx8nlx3ghgA==
 
-esbuild-linux-ppc64le@0.14.54:
-  version "0.14.54"
-  resolved "https://registry.yarnpkg.com/esbuild-linux-ppc64le/-/esbuild-linux-ppc64le-0.14.54.tgz#3f9a0f6d41073fb1a640680845c7de52995f137e"
-  integrity sha512-j3OMlzHiqwZBDPRCDFKcx595XVfOfOnv68Ax3U4UKZ3MTYQB5Yz3X1mn5GnodEVYzhtZgxEBidLWeIs8FDSfrQ==
+esbuild-linux-ppc64le@0.15.8:
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-ppc64le/-/esbuild-linux-ppc64le-0.15.8.tgz#98ea8cfae8227180b45b2d952b2cbb072900944f"
+  integrity sha512-CEyMMUUNabXibw8OSNmBXhOIGhnjNVl5Lpseiuf00iKN0V47oqDrbo4dsHz1wH62m49AR8iG8wpDlTqfYgKbtg==
 
-esbuild-linux-riscv64@0.14.54:
-  version "0.14.54"
-  resolved "https://registry.yarnpkg.com/esbuild-linux-riscv64/-/esbuild-linux-riscv64-0.14.54.tgz#618853c028178a61837bc799d2013d4695e451c8"
-  integrity sha512-y7Vt7Wl9dkOGZjxQZnDAqqn+XOqFD7IMWiewY5SPlNlzMX39ocPQlOaoxvT4FllA5viyV26/QzHtvTjVNOxHZg==
+esbuild-linux-riscv64@0.15.8:
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-riscv64/-/esbuild-linux-riscv64-0.15.8.tgz#6334607025eb449d8dd402d7810721dc15a6210f"
+  integrity sha512-OCGSOaspMUjexSCU8ZiA0UnV/NiRU+s2vIfEcAQWQ6u32R+2luyfh/4ZaY6jFbylJE07Esc/yRvb9Q5fXuClXA==
 
-esbuild-linux-s390x@0.14.54:
-  version "0.14.54"
-  resolved "https://registry.yarnpkg.com/esbuild-linux-s390x/-/esbuild-linux-s390x-0.14.54.tgz#d1885c4c5a76bbb5a0fe182e2c8c60eb9e29f2a6"
-  integrity sha512-zaHpW9dziAsi7lRcyV4r8dhfG1qBidQWUXweUjnw+lliChJqQr+6XD71K41oEIC3Mx1KStovEmlzm+MkGZHnHA==
+esbuild-linux-s390x@0.15.8:
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/esbuild-linux-s390x/-/esbuild-linux-s390x-0.15.8.tgz#874f1a3507c32cce1d2ce0d2f28ac1496c094eab"
+  integrity sha512-RHdpdfxRTSrZXZJlFSLazFU4YwXLB5Rgf6Zr5rffqSsO4y9JybgtKO38bFwxZNlDXliYISXN/YROKrG9s7mZQA==
 
-esbuild-netbsd-64@0.14.54:
-  version "0.14.54"
-  resolved "https://registry.yarnpkg.com/esbuild-netbsd-64/-/esbuild-netbsd-64-0.14.54.tgz#69ae917a2ff241b7df1dbf22baf04bd330349e81"
-  integrity sha512-PR01lmIMnfJTgeU9VJTDY9ZerDWVFIUzAtJuDHwwceppW7cQWjBBqP48NdeRtoP04/AtO9a7w3viI+PIDr6d+w==
+esbuild-netbsd-64@0.15.8:
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/esbuild-netbsd-64/-/esbuild-netbsd-64-0.15.8.tgz#2e03d87ed811400d5d1fa8c7629b9fd97a574231"
+  integrity sha512-VolFFRatBH09T5QMWhiohAWCOien1R1Uz9K0BRVVTBgBaVBt7eArsXTKxVhUgRf2vwu2c2SXkuP0r7HLG0eozw==
 
-esbuild-openbsd-64@0.14.54:
-  version "0.14.54"
-  resolved "https://registry.yarnpkg.com/esbuild-openbsd-64/-/esbuild-openbsd-64-0.14.54.tgz#db4c8495287a350a6790de22edea247a57c5d47b"
-  integrity sha512-Qyk7ikT2o7Wu76UsvvDS5q0amJvmRzDyVlL0qf5VLsLchjCa1+IAvd8kTBgUxD7VBUUVgItLkk609ZHUc1oCaw==
+esbuild-openbsd-64@0.15.8:
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/esbuild-openbsd-64/-/esbuild-openbsd-64-0.15.8.tgz#8fdbc6399563ac61ff546449e2226a2b1477216c"
+  integrity sha512-HTAPlg+n4kUeE/isQxlCfsOz0xJGNoT5LJ9oYZWFKABfVf4Ycu7Zlf5ITgOnrdheTkz8JeL/gISIOCFAoOXrSA==
 
-esbuild-sunos-64@0.14.54:
-  version "0.14.54"
-  resolved "https://registry.yarnpkg.com/esbuild-sunos-64/-/esbuild-sunos-64-0.14.54.tgz#54287ee3da73d3844b721c21bc80c1dc7e1bf7da"
-  integrity sha512-28GZ24KmMSeKi5ueWzMcco6EBHStL3B6ubM7M51RmPwXQGLe0teBGJocmWhgwccA1GeFXqxzILIxXpHbl9Q/Kw==
+esbuild-sunos-64@0.15.8:
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/esbuild-sunos-64/-/esbuild-sunos-64-0.15.8.tgz#db657b5c09c0c0161d67ddafca1b710a2e7ce96b"
+  integrity sha512-qMP/jR/FzcIOwKj+W+Lb+8Cfr8GZHbHUJxAPi7DUhNZMQ/6y7sOgRzlOSpRrbbUntrRZh0MqOyDhJ3Gpo6L1QA==
 
-esbuild-windows-32@0.14.54:
-  version "0.14.54"
-  resolved "https://registry.yarnpkg.com/esbuild-windows-32/-/esbuild-windows-32-0.14.54.tgz#f8aaf9a5667630b40f0fb3aa37bf01bbd340ce31"
-  integrity sha512-T+rdZW19ql9MjS7pixmZYVObd9G7kcaZo+sETqNH4RCkuuYSuv9AGHUVnPoP9hhuE1WM1ZimHz1CIBHBboLU7w==
+esbuild-wasm@0.15.8:
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/esbuild-wasm/-/esbuild-wasm-0.15.8.tgz#60fb8c5dc1a5538421857a2fa5fbb9eab908dcbb"
+  integrity sha512-Y7uCl5RNO4URjlemjdx++ukVHEMt5s5AfMWYUnMiK4Sry+pPCvQIctzXq6r6FKCyGKjX6/NGMCqR2OX6aLxj0w==
 
-esbuild-windows-64@0.14.54:
-  version "0.14.54"
-  resolved "https://registry.yarnpkg.com/esbuild-windows-64/-/esbuild-windows-64-0.14.54.tgz#bf54b51bd3e9b0f1886ffdb224a4176031ea0af4"
-  integrity sha512-AoHTRBUuYwXtZhjXZbA1pGfTo8cJo3vZIcWGLiUcTNgHpJJMC1rVA44ZereBHMJtotyN71S8Qw0npiCIkW96cQ==
+esbuild-windows-32@0.15.8:
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/esbuild-windows-32/-/esbuild-windows-32-0.15.8.tgz#bbb9fe20a8b6bba4428642cacf45a0fb7b2f3783"
+  integrity sha512-RKR1QHh4iWzjUhkP8Yqi75PPz/KS+b8zw3wUrzw6oAkj+iU5Qtyj61ZDaSG3Qf2vc6hTIUiPqVTqBH0NpXFNwg==
 
-esbuild-windows-arm64@0.14.54:
-  version "0.14.54"
-  resolved "https://registry.yarnpkg.com/esbuild-windows-arm64/-/esbuild-windows-arm64-0.14.54.tgz#937d15675a15e4b0e4fafdbaa3a01a776a2be982"
-  integrity sha512-M0kuUvXhot1zOISQGXwWn6YtS+Y/1RT9WrVIOywZnJHo3jCDyewAc79aKNQWFCQm+xNHVTq9h8dZKvygoXQQRg==
+esbuild-windows-64@0.15.8:
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/esbuild-windows-64/-/esbuild-windows-64-0.15.8.tgz#cedee65505209c8d371d7228b60785c08f43e04d"
+  integrity sha512-ag9ptYrsizgsR+PQE8QKeMqnosLvAMonQREpLw4evA4FFgOBMLEat/dY/9txbpozTw9eEOYyD3a4cE9yTu20FA==
 
-esbuild@^0.14.47:
-  version "0.14.54"
-  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.14.54.tgz#8b44dcf2b0f1a66fc22459943dccf477535e9aa2"
-  integrity sha512-Cy9llcy8DvET5uznocPyqL3BFRrFXSVqbgpMJ9Wz8oVjZlh/zUSNbPRbov0VX7VxN2JH1Oa0uNxZ7eLRb62pJA==
+esbuild-windows-arm64@0.15.8:
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/esbuild-windows-arm64/-/esbuild-windows-arm64-0.15.8.tgz#1d75235290bf23a111e6c0b03febd324af115cb1"
+  integrity sha512-dbpAb0VyPaUs9mgw65KRfQ9rqiWCHpNzrJusoPu+LpEoswosjt/tFxN7cd2l68AT4qWdBkzAjDLRon7uqMeWcg==
+
+esbuild@^0.15.6:
+  version "0.15.8"
+  resolved "https://registry.yarnpkg.com/esbuild/-/esbuild-0.15.8.tgz#75daa25d03f6dd9cc9355030eba2b93555b42cd4"
+  integrity sha512-Remsk2dmr1Ia65sU+QasE6svJbsHe62lzR+CnjpUvbZ+uSYo1SitiOWPRfZQkCu82YWZBBKXiD/j0i//XWMZ+Q==
   optionalDependencies:
-    "@esbuild/linux-loong64" "0.14.54"
-    esbuild-android-64 "0.14.54"
-    esbuild-android-arm64 "0.14.54"
-    esbuild-darwin-64 "0.14.54"
-    esbuild-darwin-arm64 "0.14.54"
-    esbuild-freebsd-64 "0.14.54"
-    esbuild-freebsd-arm64 "0.14.54"
-    esbuild-linux-32 "0.14.54"
-    esbuild-linux-64 "0.14.54"
-    esbuild-linux-arm "0.14.54"
-    esbuild-linux-arm64 "0.14.54"
-    esbuild-linux-mips64le "0.14.54"
-    esbuild-linux-ppc64le "0.14.54"
-    esbuild-linux-riscv64 "0.14.54"
-    esbuild-linux-s390x "0.14.54"
-    esbuild-netbsd-64 "0.14.54"
-    esbuild-openbsd-64 "0.14.54"
-    esbuild-sunos-64 "0.14.54"
-    esbuild-windows-32 "0.14.54"
-    esbuild-windows-64 "0.14.54"
-    esbuild-windows-arm64 "0.14.54"
+    "@esbuild/android-arm" "0.15.8"
+    "@esbuild/linux-loong64" "0.15.8"
+    esbuild-android-64 "0.15.8"
+    esbuild-android-arm64 "0.15.8"
+    esbuild-darwin-64 "0.15.8"
+    esbuild-darwin-arm64 "0.15.8"
+    esbuild-freebsd-64 "0.15.8"
+    esbuild-freebsd-arm64 "0.15.8"
+    esbuild-linux-32 "0.15.8"
+    esbuild-linux-64 "0.15.8"
+    esbuild-linux-arm "0.15.8"
+    esbuild-linux-arm64 "0.15.8"
+    esbuild-linux-mips64le "0.15.8"
+    esbuild-linux-ppc64le "0.15.8"
+    esbuild-linux-riscv64 "0.15.8"
+    esbuild-linux-s390x "0.15.8"
+    esbuild-netbsd-64 "0.15.8"
+    esbuild-openbsd-64 "0.15.8"
+    esbuild-sunos-64 "0.15.8"
+    esbuild-windows-32 "0.15.8"
+    esbuild-windows-64 "0.15.8"
+    esbuild-windows-arm64 "0.15.8"
 
 estree-walker@^2.0.1:
   version "2.0.2"
@@ -625,6 +667,13 @@ magic-string@^0.26.2:
   dependencies:
     sourcemap-codec "^1.4.8"
 
+magic-string@^0.26.3:
+  version "0.26.3"
+  resolved "https://registry.yarnpkg.com/magic-string/-/magic-string-0.26.3.tgz#25840b875140f7b4785ab06bddc384270b7dd452"
+  integrity sha512-u1Po0NDyFcwdg2nzHT88wSK0+Rih0N1M+Ph1Sp08k8yvFFU3KR72wryS7e1qMPJypt99WB7fIFVCA92mQrMjrg==
+  dependencies:
+    sourcemap-codec "^1.4.8"
+
 merge2@^1.3.0:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/merge2/-/merge2-1.4.1.tgz#4368892f885e907455a6fd7dc55c0c9d404990ae"
@@ -740,10 +789,10 @@ picomatch@^2.0.4, picomatch@^2.2.1, picomatch@^2.2.2, picomatch@^2.3.1:
   resolved "https://registry.yarnpkg.com/picomatch/-/picomatch-2.3.1.tgz#3ba3833733646d9d3e4995946c1365a67fb07a42"
   integrity sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==
 
-playwright-core@1.25.0:
-  version "1.25.0"
-  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.25.0.tgz#54dc867c6c2cc5e4233905e249206a02914d14f1"
-  integrity sha512-kZ3Jwaf3wlu0GgU0nB8UMQ+mXFTqBIFz9h1svTlNduNKjnbPXFxw7mJanLVjqxHJRn62uBfmgBj93YHidk2N5Q==
+playwright-core@1.26.0:
+  version "1.26.0"
+  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.26.0.tgz#850228f0638d410a5cdd69800d552f60e4d295cd"
+  integrity sha512-p8huU8eU4gD3VkJd3DA1nA7R3XA6rFvFL+1RYS96cSljCF2yJE9CWEHTPF4LqX8KN9MoWCrAfVKP5381X3CZqg==
 
 postcss@^8.4.16:
   version "8.4.16"
@@ -807,10 +856,10 @@ rimraf@^2.5.2:
   dependencies:
     glob "^7.1.3"
 
-"rollup@>=2.75.6 <2.77.0 || ~2.77.0":
-  version "2.77.3"
-  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.77.3.tgz#8f00418d3a2740036e15deb653bed1a90ee0cc12"
-  integrity sha512-/qxNTG7FbmefJWoeeYJFbHehJ2HNWnjkAFRKzWN/45eNBBF/r8lo992CwcJXEzyVxs5FmfId+vTSTQDb+bxA+g==
+rollup@~2.78.0:
+  version "2.78.1"
+  resolved "https://registry.yarnpkg.com/rollup/-/rollup-2.78.1.tgz#52fe3934d9c83cb4f7c4cb5fb75d88591be8648f"
+  integrity sha512-VeeCgtGi4P+o9hIg+xz4qQpRl6R401LWEXBmxYKOV4zlF82lyhgh2hTZnheFUbANE8l2A41F458iwj2vEYaXJg==
   optionalDependencies:
     fsevents "~2.3.2"
 
@@ -891,10 +940,10 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.yarnpkg.com/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-svelte-check@2.8.1:
-  version "2.8.1"
-  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-2.8.1.tgz#484499d66ad6a5043e9dfeb91b0dfadf2a9c63b0"
-  integrity sha512-cibyY1sgt3ONIDnQbSgV2X9AJFhwEslRHNo95lijrYfPzVEvTvbmL2ohsUyqB5L7j1GhLXtQbjCJ4lZZ/fwbeQ==
+svelte-check@2.9.0:
+  version "2.9.0"
+  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-2.9.0.tgz#94a4bbe5bccade5a9edae987f417040ab7af4a2a"
+  integrity sha512-9AVrtP7WbfDgCdqTZNPdj5CCCy1OrYMxFVWAWzNw7fl93c9klFJFtqzVXa6fovfQ050CcpUyJE2dPFL9TFAREw==
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.9"
     chokidar "^3.4.1"
@@ -905,10 +954,10 @@ svelte-check@2.8.1:
     svelte-preprocess "^4.0.0"
     typescript "*"
 
-svelte-hmr@^0.14.12:
-  version "0.14.12"
-  resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.14.12.tgz#a127aec02f1896500b10148b2d4d21ddde39973f"
-  integrity sha512-4QSW/VvXuqVcFZ+RhxiR8/newmwOCTlbYIezvkeN6302YFRE8cXy0naamHcjz8Y9Ce3ITTZtrHrIL0AGfyo61w==
+svelte-hmr@^0.15.0:
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/svelte-hmr/-/svelte-hmr-0.15.0.tgz#c8304b5dd33f006415329d91470761d19417a324"
+  integrity sha512-Aw21SsyoohyVn4yiKXWPNCSW2DQNH/76kvUnE9kpt4h9hcg9tfyQc6xshx9hzgMfGF0kVx0EGD8oBMWSnATeOg==
 
 svelte-preprocess@4.10.7, svelte-preprocess@^4.0.0:
   version "4.10.7"
@@ -922,27 +971,27 @@ svelte-preprocess@4.10.7, svelte-preprocess@^4.0.0:
     sorcery "^0.10.0"
     strip-indent "^3.0.0"
 
-svelte@3.49.0:
-  version "3.49.0"
-  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.49.0.tgz#5baee3c672306de1070c3b7888fc2204e36a4029"
-  integrity sha512-+lmjic1pApJWDfPCpUUTc1m8azDqYCG1JN9YEngrx/hUyIcFJo6VZhj0A1Ai0wqoHcEIuQy+e9tk+4uDgdtsFA==
+svelte@3.50.1:
+  version "3.50.1"
+  resolved "https://registry.yarnpkg.com/svelte/-/svelte-3.50.1.tgz#b35fbc5e79ddd71e8bb27c3149ee6ff903841239"
+  integrity sha512-bS4odcsdj5D5jEg6riZuMg5NKelzPtmsCbD9RG+8umU03TeNkdWnP6pqbCm0s8UQNBkqk29w/Bdubn3C+HWSwA==
 
-sveltekit-adapter-aws@4.0.4:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/sveltekit-adapter-aws/-/sveltekit-adapter-aws-4.0.4.tgz#8fc105c911e5b8db9ac3eee3ef60b10e7bfe6c2c"
-  integrity sha512-NRaAGChPHRFhQG79gK+d7/kAUvTSIR2kfOGRrP8c3FYuzAnR5ittCOjrxydEXFm0J4yEi9bO+d4CarnsWLhhlw==
+sveltekit-adapter-aws@4.2.14:
+  version "4.2.14"
+  resolved "https://registry.yarnpkg.com/sveltekit-adapter-aws/-/sveltekit-adapter-aws-4.2.14.tgz#ee52ea064e331d053824b7b7b1fea5692f2602c6"
+  integrity sha512-4EExUrdENFBU5VlOvkpFlvITbb2aN+4iCr/i3077RKdS0SK3ScSQEvV2YTy6gjisl0JcG39JGojyjX3h/t2vqQ==
   dependencies:
-    "@aws-cdk/aws-apigatewayv2-alpha" "2.38.1-alpha.0"
-    "@aws-cdk/aws-apigatewayv2-integrations-alpha" "2.38.1-alpha.0"
-    "@sveltejs/kit" "1.0.0-next.429"
-    aws-cdk "2.38.1"
-    aws-cdk-lib "2.38.1"
-    constructs "10.1.84"
-    dotenv "16.0.1"
+    "@aws-cdk/aws-apigatewayv2-alpha" "2.42.1-alpha.0"
+    "@aws-cdk/aws-apigatewayv2-integrations-alpha" "2.42.1-alpha.0"
+    "@sveltejs/kit" "1.0.0-next.489"
+    aws-cdk "2.42.1"
+    aws-cdk-lib "2.42.1"
+    constructs "10.1.107"
+    dotenv "16.0.2"
     fs-extra "10.1.0"
-    svelte "3.49.0"
+    svelte "3.50.1"
     update-dotenv "1.1.1"
-    vite "3.0.9"
+    vite "3.1.3"
 
 tiny-glob@^0.2.9:
   version "0.2.9"
@@ -969,10 +1018,15 @@ tslib@2.4.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
   integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
 
-typescript@*, typescript@4.7.4:
+typescript@*:
   version "4.7.4"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.7.4.tgz#1a88596d1cf47d59507a1bcdfb5b9dfe4d488235"
   integrity sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==
+
+typescript@4.8.3:
+  version "4.8.3"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.8.3.tgz#d59344522c4bc464a65a730ac695007fdb66dd88"
+  integrity sha512-goMHfm00nWPa8UvR/CPSvykqf6dVV8x/dp0c5mFTMTIu0u0FlGWRioyy7Nn0PGAdHxpJZnuO/ut+PpQ8UiHAig==
 
 undici@^5.8.1:
   version "5.9.1"
@@ -989,15 +1043,15 @@ update-dotenv@1.1.1:
   resolved "https://registry.yarnpkg.com/update-dotenv/-/update-dotenv-1.1.1.tgz#17146f302f216c3c92419d5a327a45be910050ca"
   integrity sha512-3cIC18In/t0X/yH793c00qqxcKD8jVCgNOPif/fGQkFpYMGecM9YAc+kaAKXuZsM2dE9I9wFI7KvAuNX22SGMQ==
 
-vite@3.0.9:
-  version "3.0.9"
-  resolved "https://registry.yarnpkg.com/vite/-/vite-3.0.9.tgz#45fac22c2a5290a970f23d66c1aef56a04be8a30"
-  integrity sha512-waYABTM+G6DBTCpYAxvevpG50UOlZuynR0ckTK5PawNVt7ebX6X7wNXHaGIO6wYYFXSM7/WcuFuO2QzhBB6aMw==
+vite@3.1.3:
+  version "3.1.3"
+  resolved "https://registry.yarnpkg.com/vite/-/vite-3.1.3.tgz#b2a0821c11aae124bb7618f8036913c689afcc59"
+  integrity sha512-/3XWiktaopByM5bd8dqvHxRt5EEgRikevnnrpND0gRfNkrMrPaGGexhtLCzv15RcCMtV2CLw+BPas8YFeSG0KA==
   dependencies:
-    esbuild "^0.14.47"
+    esbuild "^0.15.6"
     postcss "^8.4.16"
     resolve "^1.22.1"
-    rollup ">=2.75.6 <2.77.0 || ~2.77.0"
+    rollup "~2.78.0"
   optionalDependencies:
     fsevents "~2.3.2"
 
